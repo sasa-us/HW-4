@@ -1,9 +1,9 @@
 /* ========================================= CPSC473 HW 4---Sha Lu ====================================*/
 /* ========================================= update star  =============================================*/
-var update = function(dbActor, starred) {
-
+var update = function (dbActor, starred) {
+    "use strict";
     var strUrl = "http://localhost:3000/actors/" + dbActor.id;
-    alert(strUrl);
+    //alert(strUrl);
     $.ajax({
         type: 'PUT',
         url: strUrl,
@@ -11,7 +11,7 @@ var update = function(dbActor, starred) {
             "name": dbActor.name,
             "starred": starred
         },
-        success: function(status) {
+        success: function (status) {
             //alert("Status: " + status);       
         },
         async: false
@@ -19,16 +19,16 @@ var update = function(dbActor, starred) {
 };//end update
 
 /* ============================ main get data from DB, add new name  =================================*/
-var main = function() {
+var main = function () {
     "use strict";
 
     var url = "http://localhost:3000/actors";
     $.get(url, function(actorList) {
-        var $div,
-            $span,
-            $spanName,
-            $i,
-            $a;
+        var $div;
+        var $span;
+        var $spanName;
+        var $i;
+        var $a;
 
         actorList.forEach(function(dbActor) {
             $div = $("<div>").addClass("mdl-list__item");
