@@ -1,1 +1,32 @@
-db.json
+[
+  {
+    "name": "Bryan Cranston",
+    "starred": true,
+    "id": 1
+  },
+  {
+    "name": "Aaron Paul",
+    "starred": true,
+    "id": 2
+  },
+  {
+    "id": 3,
+    "name": "Bob Odenkirk",
+    "starred": true
+  },
+  {
+    "id": 4,
+    "name": "Dean Norris",
+    "starred": false
+  },
+  {
+    "name": "sasa",
+    "starred": true,
+    "id": 5
+  },
+  {
+    "name": "xixi",
+    "starred": true,
+    "id": 6
+  }
+]
