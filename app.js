@@ -89,7 +89,7 @@ var main = function () {
             url: strUrl,
             data: newActor,
             success: function(data, status) {
-                //alert("Data: " + data + "\nStatus: " + status);       
+                 
             },
             dataType: 'json',
             async: false
