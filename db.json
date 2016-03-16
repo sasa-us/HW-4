@@ -26,7 +26,17 @@
   },
   {
     "name": "xixi",
-    "starred": true,
+    "starred": false,
     "id": 6
+  },
+  {
+    "name": "hope",
+    "starred": false,
+    "id": 7
+  },
+  {
+    "name": "amy",
+    "starred": true,
+    "id": 8
   }
 ]
